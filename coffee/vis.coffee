@@ -405,6 +405,7 @@ root.plotData = (selector, data, plot) ->
     .call(plot)
 
 texts = [
+  {key:"anypoint",file:"programs.csv",name:"시청 프로그램 분석"}
   {key:"sherlock",file:"top_sherlock.csv",name:"The Adventures of Sherlock Holmes"}
   {key:"aesop",file:"top_aesop.csv",name:"Aesop's Fables"}
   {key:"alice",file:"alice.csv",name:"Alice's Adventures in Wonderland"}
